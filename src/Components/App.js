@@ -13,7 +13,7 @@ import RandomAlbumGrid from "./RandomAlbumGrid.js"; // Import the RandomAlbumGri
 import Radio from "./Radio/Radio.js";
 import ChangePassword from "./ChangePassword/ChangePassword.js";
 import Signup from "./Signup/Signup.js";
-import LogOut from "./LogOut/LogOut.js";
+
 import TryItFree from "./tryItFree/TryItFree.js";
 
 export default function App() {
@@ -38,7 +38,7 @@ export default function App() {
             <Route path="Radio" element={<Radio />} />
             <Route path="/change-password" element={<ChangePassword />} />
             <Route path="/signUp" element={<Signup />} />
-            <Route path="/LogOut" element={<LogOut />} />
+         
             <Route path="/tryItFree" element={<TryItFree />} />
             <Route path="/Sidebar" element={<Sidebar />} />
 
