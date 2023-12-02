@@ -1,0 +1,80 @@
+  
+
+.song-title-name{
+  position: relative;
+  max-width: 100%;
+  height: calc(var(--lcd-height, 61px) - 3px);
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1;
+  align-items: var(--lcd-justify-text, center);
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.lcd__badge-platter{
+  font-size: 11px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-top: auto;
+    margin-bottom: 4px;
+    padding: 0px 4px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    border-radius: 3px;
+    background-color: #d60017;
+    margin-inline-start: 8px;
+    justify-self: end;
+}
+
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+ .audio-bar span{
+ font-size: 10px;
+ color: gray;
+} 
+
+.audio-bar progress {
+  width: 325px; 
+  height: 10px;
+  color: gray;
+}
